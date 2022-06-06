@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_9j_HoNkNEeyVIpDqzodYbQ" name="Markets" id="_iGaYMNkNEeyVIpDqzodYbQ" label="Markets" dataPackage="_ccg7ANkOEeyVIpDqzodYbQ" DatabaseType="Access" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" URL="jdbc:ucanaccess://c:/users/yassi/downloads/markets.accdb;jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/Users/yassi/Downloads/markets.accdb" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="access_id" ProductId="ACCESS" AdditionalParams="jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_9j_usNkNEeyVIpDqzodYbQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_9kJfsNkNEeyVIpDqzodYbQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_9kJfsdkNEeyVIpDqzodYbQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_9kJfstkNEeyVIpDqzodYbQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_9kJfs9kNEeyVIpDqzodYbQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_9kJftNkNEeyVIpDqzodYbQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_9kJftdkNEeyVIpDqzodYbQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_9kJfttkNEeyVIpDqzodYbQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_9pzbwNkNEeyVIpDqzodYbQ" tag="DB ProductName" value="Ucanaccess for access db(Jet) using hasqldb"/>
+    <taggedValue xmi:id="_9pzbwdkNEeyVIpDqzodYbQ" tag="DB ProductVersion" value="V2007 [VERSION_12]"/>
+    <taggedValue xmi:id="_9pzbwtkNEeyVIpDqzodYbQ" tag="DB IdentifierQuoteString" value="`"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ccg7ANkOEeyVIpDqzodYbQ" name="Markets" dataManager="_9j_HoNkNEeyVIpDqzodYbQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ccg7AdkOEeyVIpDqzodYbQ" name="MARKETS" id="_bT2p0NkOEeyVIpDqzodYbQ" label="MARKETS" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_ccg7AtkOEeyVIpDqzodYbQ" name="MARKETS_CODE" label="MARKETS_CODE" length="255" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_ccg7A9kOEeyVIpDqzodYbQ"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ccg7BNkOEeyVIpDqzodYbQ" name="MARKETS_NAME" label="MARKETS_NAME" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_ccg7BdkOEeyVIpDqzodYbQ"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ccg7BtkOEeyVIpDqzodYbQ" name="ZONE" label="ZONE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_ccg7B9kOEeyVIpDqzodYbQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>
